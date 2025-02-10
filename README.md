@@ -54,11 +54,12 @@ Usage
 Once deployed, you can send POST requests to the /predict endpoint of your API with the following JSON payload:
 
 JSON
-
+```
 {
   "text": "The battery life of this phone is amazing, but the camera is disappointing.",
   "target": "battery life"
 }
+```
 The API will return a JSON response containing the predicted sentiment.
 
 Cleanup
