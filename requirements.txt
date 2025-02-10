@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+boto3
+torch==1.12.1
+transformers==4.22.0
+pytorch-lightning==1.7.6
+torchmetrics==0.9.3
+networkx==2.8.6
+pandas==1.4.3
+spacy==3.4.1
+transformers-interpret  # If used in training or inference
+st-annotated-text    # If used in training or inference
+streamlit           # If used in training or inference
+mlflow              # Add mlflow
